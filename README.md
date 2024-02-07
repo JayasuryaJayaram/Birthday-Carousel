@@ -23,9 +23,9 @@ Short summary on functionality and used technologies.
 
 ## Solution
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| Solution    | Author(s)                                                   |
+| ----------- | ----------------------------------------------------------- |
+| folder name | Author details (Jaya Surya, Qudra, twitter alias with link) |
 
 ## Version history
 
