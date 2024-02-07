@@ -1,0 +1,79 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.birthdayCarousel {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.carousel {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.wishImg {
+  width: -webkit-fill-available;
+  margin: auto;
+}
+
+.wish {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 25px;
+}
+
+.userPhoto {
+  display: block;
+  margin: auto;
+  width: -webkit-fill-available;
+  height: 255px;
+  padding: 5px;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
+.userName {
+  color: #366397;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Snell Roundhand, cursive;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.jobTitle {
+  font-size: 15px;
+  color: darkgray;
+  margin-bottom: 0px;
+}

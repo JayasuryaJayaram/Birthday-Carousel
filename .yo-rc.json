@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.1",
+    "libraryName": "birthday-carousel",
+    "libraryId": "9107c2fd-f5e1-4b4d-bc8d-c361e228fb43",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Birthday Carousel",
+    "solutionShortDescription": "Birthday Carousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
